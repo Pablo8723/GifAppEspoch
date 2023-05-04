@@ -1,0 +1,17 @@
+<div class="bg-dark text-light" id="sider">
+
+  <div class="text-center">
+    <h1>GifApp</h1>
+    <hr>
+    <div class="list-group">
+      <button *ngFor="let tag of tags"
+              class="list-group-item list-group-item-action"
+              (click)="buscar(tag)">
+        {{tag}}
+      </button>
+
+    </div>
+  </div>
+
+
+</div>
